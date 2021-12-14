@@ -34,12 +34,12 @@
     border: 5px solid white;
 }
 
-#person-country {
-    position: absolute;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    top: 30px;
-    left: calc(50% + 20px);
-    border: 2px solid white;
+#person-email:hover{
+opacity:0.8;
+border:2px solid #3498db;;
 }
+
+#person-CV:hover{
+    opacity:0.8;
+    border:2px solid #3498db;;
+    }

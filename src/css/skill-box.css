@@ -2,7 +2,7 @@
     position: relative;
     display: inline-block;
     box-sizing: border-box;
-    background: #1abc9c;
+    background:#3498db ;
     padding: 10px 15px;
     border-radius: 3px;
     color: white;
@@ -27,7 +27,7 @@
     height: 20px;
     /*width: 100px;*/
     padding: 0px 5px;
-    background: #16a085;
+    background: #3498db;
     box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.1);
     vertical-align: middle;
     border-radius: 3px;

@@ -94,3 +94,10 @@
     padding: 5px 10px;
     font-weight: 500;
 }
+
+.thumbnail:hover{
+    opacity:0.5;
+    border: 2px solid black;
+    border-color:#3498db;
+
+}
