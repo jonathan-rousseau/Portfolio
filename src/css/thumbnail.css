@@ -99,5 +99,5 @@
     opacity:0.5;
     border: 2px solid black;
     border-color:#3498db;
-
+    transform: scale(1.1);
 }

@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-rousseau/Portfolio.git"
+  },
+  "author": "Jonathan Rousseau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-rousseau/Portfolio/issues"
+  },
+  "homepage": "https://github.com/jonathan-rousseau/Portfolio#readme",
+  "dependencies": {
+    "nodemailer": "^6.7.2"
+  }
+}
