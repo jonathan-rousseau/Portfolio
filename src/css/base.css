@@ -8,7 +8,15 @@ body {
     background-position: center center;
     overflow: hidden;
 }
-
+#navigation{
+    display:flex;
+    justify-content: flex-start;    
+    background: rgba(0,0,0,0.05);
+}
+#navigation a {
+padding: 10px;
+text-decoration: none;
+}
 #snow-fall{
     position: fixed;
     margin: 0;
@@ -58,6 +66,10 @@ hr {
     font-size: 16px;
     margin: 10px;
     text-decoration: none;
+}
+#gitHub, #linkedin{
+    width: 50px;
+    height: 50px;
 }
 
 [disabled]{
