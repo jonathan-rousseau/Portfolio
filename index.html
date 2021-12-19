@@ -17,35 +17,37 @@
         <link rel="stylesheet" href="./src/css/path.css"/>
         <link rel="stylesheet" href="./src/css/skill-box.css"/>
         <link rel="stylesheet" href="./src/css/list.css"/>
-        <link rel="stylesheet" href="./src/css/snowfall.css"/>
-        <link rel="favicon" href="./src/img/favicon.png"/>
+        <link rel="stylesheet" href="./src/css/navbar.css"/>
     </head>
+
     <body>
         <nav id='navigation'>
-            <a href="#">Introduction</a>
-            <a href="#">Compétences</a>
-            <a href="#">Réalisations</a>
-            <a href="#">Parcours</a>
-            <a href="#">Me contacter</a>
+            <ul id='menu'>
+                <li class="active"><a href="#introduction" >Introduction</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#project">Réalisations</a></li>
+                <li><a href="#course">Parcours</a></li>
+                <li><a href='./src/contactForm.html' target="_blank">Me contacter</a></li>
+            </ul>
         </nav>
         <div id="snow-fall"></div>
         <script type="text/javascript" src="./src/js/particles.js"></script>
-            <script type="text/javascript" src="./src/js/app.js"></script>
+        <script type="text/javascript" src="./src/js/app.js"></script>
         <div class="page">
             <div class="card" id="person">
                 <img id="person-picture" src="./src/img/moi.jpg"/>
-                <section>
+                <section id='introduction'>
                     <h1 id="person-fullname"></h1>
                     <h2 id="person-job"></h2>
                     <p>Hello, je suis <strong id="person-firstname">Jonathan Rousseau</strong>, <strong id="person-position">Développeur web</strong> spécialisé en <strong id="person-speciality">React/node.js</strong> actuellement en recherche <strong id="person-company"> d'un contrat d'alternance</strong> dans la ville de <strong id="person-city">Nantes</strong>.</p>
                     <div>
-                        <a class="button" target="_blank" id="person-email">M'envoyer un email</a>
+                        <a href='./src/contactForm.html'class="button" target="_blank" id="person-email">Me contacter</a>
                         <span class="or"> ou </span>
-                        <a target="_blank" class="button" href="https://welovedevs.com" id='person-CV'>Voir mon CV</a>
+                        <a class="button" href="./src/img/CV_Jonathan_Rousseau.pdf" download="filename" id='person-CV'>Télécharger mon CV</a>
                     </div>
                     <hr/>
                 </section>
-                <section>
+                <section id="skills">
                     <h3>Compétences</h3>
                     <ul class="list">
                         <li>
@@ -103,7 +105,7 @@
                     </ul>
                     <hr/>
                 </section>
-                <section>
+                <section id="project">
                     <h3>Réalisations</h3>
                     <div class="thumbnail" >
                         <div class="thumbnail-cover" style="background-image: url(./src/img/WelcomeToNantes.PNG)"></div>
@@ -181,7 +183,7 @@
                     </div>
                     <hr/>
                 </section>
-                <section>
+                <section id='course'>
                     <h3>Parcours</h3>
                         <div class="step">
                             <p class="step-title">Stage de fin de formation - Aquasys - AOU-DEC 2021</p>
@@ -203,12 +205,7 @@
                         </div>
                     <hr />
                 </section>
-                <section>
-                    <div class="path">
-                        <h3>Me contacter</h3>
-                    </div>
-                </section>
-                <section>
+                <section id='social'>
                     <div class="path">
                         <h3>Social</h3>
                         <a href="https://www.linkedin.com/in/jonathan-rousseau/" target="_blank" rel="noopener noreferrer"><img id='linkedin' src="./src/img/linkedin.svg" /></a>
