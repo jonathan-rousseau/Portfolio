@@ -9,6 +9,10 @@
     margin: 5px;
 }
 
+ #cypressContainer{
+    margin-left: 20%;
+}
+
 .skill-box .fa.skill-favorite {
     position: absolute;
     color: #f1c40f;
@@ -25,7 +29,6 @@
 .box-well {
     display: inline-block;
     height: 20px;
-    /*width: 100px;*/
     padding: 0px 5px;
     background: #3498db;
     box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.1);
@@ -46,5 +49,8 @@
     .list li:nth-child(even) .skill-box .fa.skill-favorite {
         left: -20px;
         right: initial;
+    }
+    #cypressContainer{
+        margin-left: 0%;
     }
 }
