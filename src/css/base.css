@@ -9,6 +9,13 @@ html,body {
     background-position: center center;
     overflow: hidden;
 }
+h3{
+    margin: 15px;
+}
+
+hr{
+    margin: 30px;
+}
 
 #snow-fall{
     position:fixed;
@@ -24,7 +31,7 @@ html,body {
 }
 
 .page {
-    position: relative;
+   position: relative;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -32,7 +39,7 @@ html,body {
     align-content: center;
     flex-direction: column;
     padding: 20px;
-    padding-top: 70px;
+    padding-top: 130px;
     box-sizing: border-box;
     overflow-y: auto;
 }
@@ -76,5 +83,8 @@ hr {
     .or {
         display: inline-block;
         width: 100%;
+    }
+    .social-container{
+        padding-top: 80px;
     }
 }
