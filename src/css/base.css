@@ -1,13 +1,29 @@
-body {
+html,body {
     position: relative;
     width: 100%;
     margin: 0;
-    background-image: url(https://source.unsplash.com/random/1920x1080?landscape);
+    padding: 0;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     overflow: hidden;
+}
+h3{
+    margin: 15px;
+}
+
+hr{
+    margin: 30px;
+}
+
+#snow-fall{
+    position:fixed;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    background: #262626 url(../img/nantes.jpg);
 }
 
 * {
@@ -15,7 +31,7 @@ body {
 }
 
 .page {
-    position: relative;
+   position: relative;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -23,7 +39,7 @@ body {
     align-content: center;
     flex-direction: column;
     padding: 20px;
-    padding-top: 70px;
+    padding-top: 130px;
     box-sizing: border-box;
     overflow-y: auto;
 }
@@ -51,6 +67,10 @@ hr {
     margin: 10px;
     text-decoration: none;
 }
+#gitHub, #linkedin{
+    width: 50px;
+    height: 50px;
+}
 
 [disabled]{
     opacity: 0.3;
@@ -63,5 +83,8 @@ hr {
     .or {
         display: inline-block;
         width: 100%;
+    }
+    .social-container{
+        padding-top: 80px;
     }
 }

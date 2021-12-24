@@ -5,7 +5,7 @@
     max-width: 600px;
     width: 100%;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.212);
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
@@ -34,12 +34,9 @@
     border: 5px solid white;
     transition: transform .1s;
 }
-#person-picture:hover{
-transform: scale(1.5);
-}
 #person-email:hover{
 opacity:0.8;
-border:2px solid #3498db;;
+border:2px solid #3498db;
 }
 
 #person-CV:hover{

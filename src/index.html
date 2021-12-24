@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Développeur web Junior en recherche d'emploi - Jonathan Rousseau </title>
+        <meta charset="utf-8"/>
+        <meta name="Jonathan" content="portfolio"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="Hello, je suis Jonathan Rousseau, développeur fullstack spécialisé React/Nods.js, actuellement en recherche d'un contrat d'alternance dans la ville de Nantes, France."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Développeur fullstack en recherche d'emploi - Jonathan Rousseau"/>
+        <meta property="og:description" content="Hello, je suis Jonathan Rousseau, développeur fullstack spécialisé React/Nods.js, actuellement en recherche d'un contrat d'alternance dans la ville de Nantes, France."/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/base.css"/>
+        <link rel="stylesheet" href="./css/card.css"/>
+        <link rel="stylesheet" href="./css/thumbnail.css"/>
+        <link rel="stylesheet" href="./css/path.css"/>
+        <link rel="stylesheet" href="./css/skill-box.css"/>
+        <link rel="stylesheet" href="./css/list.css"/>
+        <link rel="stylesheet" href="./css/navbarBurger.css"/>
+        <link rel ="stylesheet" href="./css/contactForm.css"/>
+    </head>
+    
+    <body>
+        <header>
+        <nav class='navbar dark-mode'>
+            <ul class='navbar_links'>
+                <li class="navbar_link">
+                    <a href="#person">Introduction</a>
+                </li>
+                <li class="navbar_link">
+                    <a href="#skills">Compétences</a>
+                </li>
+                <li class="navbar_link">
+                    <a href="#project">Réalisations</a>
+                </li>
+                <li class="navbar_link">
+                    <a href="#course">Parcours</a>
+                </li>
+                <li class="navbar_link">
+                    <a href='#contact'>Me contacter</a></li>
+            </ul>
+            <button class="burger" type='button'>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+        <div id="snow-fall"></div>
+
+        <div class="page">
+            <div class="card" id="person">
+                <img id="person-picture" src="./img/moi.jpg"/>
+                <section>
+                    <h1 id="person-fullname"></h1>
+                    <h2 id="person-job"></h2>
+                    <p>Hello, je suis <strong id="person-firstname">Jonathan Rousseau</strong>, <strong id="person-position">Développeur web</strong> spécialisé en <strong id="person-speciality">React/node.js</strong> actuellement en recherche <strong id="person-company"> d'un contrat d'alternance</strong> dans la ville de <strong id="person-city">Nantes</strong>.</p>
+                    <div>
+                        <a href='./src/contactForm.html'class="button" target="_blank" id="person-email">Me contacter</a>
+                        <span class="or"> ou </span>
+                        <a class="button" href="./img/CV_Jonathan_Rousseau.pdf" target="_blank" download="filename" id='person-CV'>Télécharger mon CV</a>
+                    </div>
+                    <hr/>
+                </section>
+                <section id="skills">
+                    <h3>COMPETENCES</h3>
+                    <ul class="list">
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                HTML/CSS
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                Javascript
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                            <li>
+                                <div class="skill-box">
+                                    <span class="skill-favorite fa fa-bolt"></span>
+                                    React.JS
+                                    <div class="box-well">
+                                        Bibliothèque
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-box">
+                                    <span class="skill-favorite fa fa-bolt"></span>
+                                    NodeJS
+                                    <div class="box-well">
+                                        Langage
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-box">
+                                    <span class="skill-favorite fa fa-bolt"></span>
+                                    SQL
+                                    <div class="box-well">
+                                        Langage
+                                    </div>
+                                </div>
+                                
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Git
+                                <div class="box-well">
+                                    Versioning
+                                </div>
+                            </div>
+                        </li>
+                        <li id='cypressContainer'>
+                            <div class="skill-box" id=cypress>
+                                Cypress
+                                <div class="box-well">
+                                    Testing Framework
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr/>
+                </section>
+                <section id="project">
+                    <h3>REALISATIONS</h3>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(./img/WelcomeToNantes.PNG)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Website</span>
+                            <p class="thumbnail-title">Welcome to Nantes </p>
+                            <p class="thumbnail-description"> 1er projet de ma formation, réalisé par groupe de 4 en 10 jours. Utilisation uniquement de html/css et JavaScript  </p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/jonathan-rousseau/BienvenueNantes.github.io/blob/master/js/script-contact.js" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(./img/marguerite.PNG"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Website</span>
+                            <p class="thumbnail-title"> Marguerite Autopartage </p>
+                            <p class="thumbnail-description"> 2ème projet de ma formation: réaliser un site web avec React sur l'autopartage Marguerite 
+                                Ce projet a été réalisé par groupe de 4 en 15 jours.
+                            </p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/jonathan-rousseau/projet-2-autopartage" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(./img/kines.fr.PNG)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">Kinés.fr </p>
+                            <p class="thumbnail-description">Application de partage destinée aux kinésithérapeutes.
+                                Ce projet a été créé en 8 semaines en groupe de 4 pour un client extérieur et est le dernier projet de ma formation.
+                            </p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/jonathan-rousseau/nts-js-202103-p3-frontend-kineservices" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(./img/theWildRecipie.PNG)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Website</span>
+                            <p class="thumbnail-title">The Wild Recipie </p>
+                            <p class="thumbnail-description">Application de partage de recettes.
+                                Dernier checkpoint de ma formation, réalisé en autonomie.
+                            </p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/jonathan-rousseau/nts-js-202103-p3-frontend-kineservices" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(./img/spaceHackaton.PNG)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Jeu</span>
+                            <p class="thumbnail-title"> Space Hackaton </p>
+                            <p class="thumbnail-description"> 24h thème imposé l'espace, réalisé par équipe de 4. 
+                            </p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/jonathan-rousseau/space-hackathon" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(./img/LiveFiverr.PNG)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">website</span>
+                            <p class="thumbnail-title"> Live Fiverr</p>
+                            <p class="thumbnail-description"> hackaton 72h thème imposé Fiverr: créer une application web fonctionnelle qui améliore l'expérience de la communauté fiverr. Réalisé par groupe de 4. 
+                            </p>
+                            <div class="thumbnail-footer">
+                                <a href="https://github.com/jonathan-rousseau/WCS-Hackathon-Live-Fiverr" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr/>
+                </section>
+                <section id='course'>
+                    <h3>PARCOURS</h3>
+                        <div class="step">
+                            <p class="step-title">Stage de fin de formation - Aquasys - AOU-DEC 2021</p>
+                            <ul>
+                                <li>implémentation de Cypress </li>
+                                <li>Création de tests sur l'application front end</li>
+                                <li>Réalisation d'une documentation technique sur Cypress</li>
+                            </ul>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">Wild code school - MAR-JUI 2021 </p>
+                            <p>React/Node.js</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">BTS Bio Analyses et Contrôles - 2017 </p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">BAC Science et technologies de Laboratoire SPE Biotechnologies - 2014 </p>
+                        </div>
+                    <hr />
+                </section>
+                <section id="contact">
+                    <div class="form-container">
+                        <form class="contact-form">
+                            <h3>CONTACT</h3>
+                            <input type="text" id="name" placeholder="full name" required> </br>
+                            <input type="email" id="email" placeholder="email" required></br>
+                            <input type="text" id="subject" placeholder="subject" required></br>
+                            <textarea id="message" placeholder="message" cols="30" rows="10" required></textarea></br>
+                            <input type="submit" class="submit" value="Envoyer">
+                        </form>
+                    </div>
+                    <hr />
+                </section>
+                <section id='social'>
+                    <div class="social-container">
+                        <h3>SOCIAL</h3>
+                        <a href="https://www.linkedin.com/in/jonathan-rousseau/" target="_blank" rel="noopener noreferrer"><img id='linkedin' src="./img/linkedin.svg" /></a>
+                        <a href="https://github.com/jonathan-rousseau" target="_blank" rel="noopener noreferrer"><img id='gitHub' src="./img/github.svg" /></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script type="text/javascript" src="./js/particles.js"></script>
+        <script type="text/javascript" src="./js/app.js"></script>
+        <script src="./js/navbar.js"></script>
+        <script src="./js/contactForm.js"></script>
+    </body>
+</html>
