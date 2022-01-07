@@ -4,7 +4,7 @@ let email = document.getElementById('email');
 let subject = document.getElementById('subject');
 let message = document.getElementById('message')
 
-import { fire } from 'sweetalert2';
+const Swal = require('sweetalert2')
 
 contactForm.addEventListener('submit',(e)=>{
     e.preventDefault()
@@ -20,7 +20,7 @@ contactForm.addEventListener('submit',(e)=>{
     xhr.onload = function(){
         console.log(xhr.responseText);
         if(xhr.responseText == 'success'){
-            fire({
+            Swal.fire({
                 position: 'center',
                 icon: 'success',
                 title: 'Votre email a bien été envoyé',
