@@ -1,4 +1,4 @@
-const { default: Swal } = require("sweetalert2");
+import { default as Swal } from "sweetalert2";
 
 const contactForm = document.querySelector('.contact-form');
 let name = document.getElementById('name');
