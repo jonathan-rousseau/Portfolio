@@ -4,9 +4,10 @@ let email = document.getElementById('email');
 let subject = document.getElementById('subject');
 let message = document.getElementById('message')
 
-const Swal = require('sweetalert2')
+
 
 contactForm.addEventListener('submit',(e)=>{
+    <script src="sweetalert2.all.min.js"></script>
     e.preventDefault()
     let formData = {
         name: name.value,
