@@ -1,3 +1,4 @@
+import Swal from 'sweetalert2';
 const contactForm = document.querySelector('.contact-form');
 let name = document.getElementById('name');
 let email = document.getElementById('email');
@@ -18,13 +19,25 @@ contactForm.addEventListener('submit',(e)=>{
     xhr.onload = function(){
         console.log(xhr.responseText);
         if(xhr.responseText == 'success'){
-            alert('email sent');
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'email envoyé avec succès!',
+                showConfirmButton: false,
+                timer: 3000,
+              })
             name.value = '';
             email.value = '';
             subject.value = '';
             message.value = '';
         }else{
-            alert('something went wrong !')
+            Swal.fire({
+                position: 'center',
+                icon: 'error',
+                title: 'Oups une erreur est survenue !',
+                showConfirmButton: false,
+                timer: 3000,
+              })
         }
     }
     xhr.send(JSON.stringify(formData));
