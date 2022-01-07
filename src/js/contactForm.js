@@ -1,3 +1,4 @@
+import swal from 'sweetalert';
 const contactForm = document.querySelector('.contact-form');
 let name = document.getElementById('name');
 let email = document.getElementById('email');
@@ -18,7 +19,8 @@ contactForm.addEventListener('submit',(e)=>{
     xhr.onload = function(){
         console.log(xhr.responseText);
         if(xhr.responseText == 'success'){
-            alert('Votre email a bien été envoyé');
+            swal('votre email a bien été envoyée', 'success');
+            // alert('Votre email a bien été envoyé');
             name.value = '';
             email.value = '';
             subject.value = '';
