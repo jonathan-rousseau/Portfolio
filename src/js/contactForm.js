@@ -1,4 +1,5 @@
 import Swal from 'sweetalert2';
+const Swal = require('sweetalert2')
 const contactForm = document.querySelector('.contact-form');
 let name = document.getElementById('name');
 let email = document.getElementById('email');
