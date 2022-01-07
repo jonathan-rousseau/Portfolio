@@ -1,12 +1,8 @@
-import { default as Swal } from "sweetalert2";
-
 const contactForm = document.querySelector('.contact-form');
 let name = document.getElementById('name');
 let email = document.getElementById('email');
 let subject = document.getElementById('subject');
 let message = document.getElementById('message')
-
-
 
 contactForm.addEventListener('submit',(e)=>{
     e.preventDefault()
@@ -22,8 +18,7 @@ contactForm.addEventListener('submit',(e)=>{
     xhr.onload = function(){
         console.log(xhr.responseText);
         if(xhr.responseText == 'success'){
-            Swal.fire('test')
-            // alert('Votre email a bien été envoyé');
+            alert('Votre email a bien été envoyé');
             name.value = '';
             email.value = '';
             subject.value = '';
