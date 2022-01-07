@@ -18,7 +18,7 @@ contactForm.addEventListener('submit',(e)=>{
     xhr.onload = function(){
         console.log(xhr.responseText);
         if(xhr.responseText == 'success'){
-            swal('votre email a bien été envoyée', 'success');
+            swal('votre email a bien été envoyée',"", 'success');
             // alert('Votre email a bien été envoyé');
             name.value = '';
             email.value = '';
