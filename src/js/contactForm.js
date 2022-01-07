@@ -1,3 +1,5 @@
+const { default: Swal } = require("sweetalert2");
+
 const contactForm = document.querySelector('.contact-form');
 let name = document.getElementById('name');
 let email = document.getElementById('email');
@@ -7,7 +9,6 @@ let message = document.getElementById('message')
 
 
 contactForm.addEventListener('submit',(e)=>{
-    <script src="sweetalert2.all.min.js"></script>
     e.preventDefault()
     let formData = {
         name: name.value,
@@ -21,14 +22,8 @@ contactForm.addEventListener('submit',(e)=>{
     xhr.onload = function(){
         console.log(xhr.responseText);
         if(xhr.responseText == 'success'){
-            Swal.fire({
-                position: 'center',
-                icon: 'success',
-                title: 'Votre email a bien été envoyé',
-                showConfirmButton: false,
-                timer: 3000,
-              })
-            alert('Votre email a bien été envoyé');
+            Swal.fire('test')
+            // alert('Votre email a bien été envoyé');
             name.value = '';
             email.value = '';
             subject.value = '';
